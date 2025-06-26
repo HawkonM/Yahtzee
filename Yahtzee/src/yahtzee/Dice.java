@@ -1,7 +1,7 @@
 package yahtzee;
 
 public class Dice {
-	int[] diceArray ;
+	static int[] diceArray;
 	
 	static int[] createDiceArray() {
 		int[] dArray = {1, 2, 3, 4, 5};

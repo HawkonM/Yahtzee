@@ -34,7 +34,24 @@ public class Score {
 	}
 	//should return 3 of a kind or more, todo fix the "or more" part
 	public static int threeOfaKind(int a, int b, int c) {
-		int sum = a + b +c;
+		int sum = 0;
+		if(a == b & b == c ) {
+		sum = a + b + c;
+		}
+		return sum;
+	}
+	public static int fourOfaKind(int a, int b, int c, int d) {
+		int sum = 0;
+		if(a == b & b == c & c == d) {
+		sum = a + b + c + d;
+		}
+		return sum;
+	}
+	
+	public static int fullHouse(int[] diceArray) {
+		//TODO
+		int sum = 0;
+		
 		return sum;
 	}
 	
